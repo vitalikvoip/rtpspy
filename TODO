@@ -1,0 +1,6 @@
+- makefile dependencies
+- remove global "running" var
+- add locking to hash table
+- use binary addresses instead of strings for hash key generation
+- dump only streams which has at least X (10..) packets to drop accidently created streams
+- move all dump header manupulations to dedicated functions
